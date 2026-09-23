@@ -1,1 +1,1 @@
-# tak-server
+# tak-server on ubuntu server

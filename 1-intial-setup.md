@@ -1,5 +1,5 @@
-## TAK Server 5.X on Raspberry Pi 4 w/Ubuntu Server 22.04 & lightweight GUI
-### System Requirements 
+## System requirements 
+
 *   **Operating Systems**: Ubuntu Server 22.04 LTS and Raspberry Pi OS (Bookworm, 64-bit/ARM64) are fully supported.
 >⚠︎ WARNING: Avoid Debian Trixie OS on the Raspberry Pi because it lacks the required Java 17 dependencies.
 *   **Required Software**: Java 17 (OpenJDK-17-jre) is a strict requirement. 
@@ -17,3 +17,27 @@
 2. Create a bootable USB flash drive with an image writer (Raspberry Pi Imager)
 >🛈 NOTE: When selecting an operating system (OS) choose **Use custom**, and select the downloaded IOS image. 
 3. Boot the newly created image from Raspberry Pi imager from the USB flash drive to the desired computer
+
+## Update system package definition and apply security patches
+
+`sudo apt update && sudo apt upgrade -y`
+
+## Install core Xfce and LightDM (Display Manager)
+
+`sudo apt install --no-install-recommends xorg lightdm slick-greeter xfce4 -y`
+
+Set the Raspberry Pi to boot directly into the GUI:
+
+`sudo systemctl set-default graphical.target`
+
+Restart to launch straight into the lightweight login screen:
+
+`sudo reboot`
+
+## Install Xarchiver (the standard Xfce compression tool)
+
+`sudo apt install xarchiver`
+
+## Install Firefox
+
+`sudo snap install firefox (or sudo apt install firefox)`

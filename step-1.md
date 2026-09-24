@@ -32,3 +32,14 @@ Set the Raspberry Pi to boot directly into the GUI:
 `sudo snap install firefox` or `sudo apt install firefox)`
 
 ## Install Xarchiver (the standard Xfce compression tool)
+
+`sudo apt install xarchiver`
+
+## Download Required Files
+
+Download the following files from: https://tak.gov/products/tak-server
+
+-	takserver-public-gpg.key
+-	deb_policy.pol
+-	takserver_x.x-RELEASExx_all.deb
+

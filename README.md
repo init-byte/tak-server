@@ -10,7 +10,7 @@ Please follow the steps in order. Each section is organized as a separate "tab" 
 
 | **Tab** | **Description** |
 |:---|:---|
-| **[Step 1: Initial Server Setup](./1-initial-setup.md)** | Prepare the OS, install a lightweight GUI, and update the system. |
+| **[Step 1: Initial Server Setup](./1-intial-setup.md)** | Prepare the OS, install a lightweight GUI, and update the system. |
 | **[Step 2: Dependencies & Pre-Install Config](./2-dependencies.md)** | Install Java, configure system limits, and set up the PostgreSQL database. |
 | **[Step 3: TAK Server Installation](./3-TAK-server-install.md)** | Download, verify, and install the official TAK Server package. |
 | **[Step 4: Certificate Generation](./4-Certificate-Gen.md)** | Create the Certificate Authority (CA) and generate server/client certificates. |

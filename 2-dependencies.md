@@ -17,9 +17,9 @@ To support Java threads, increase the open files limit by configuring soft and h
 
 ```
 cat <HERE | sudo tee --append /etc/security/limits.conf > /dev/null
-  *	soft nofile 32768
-  *	hard nofile 32768
-  HERE
+* soft nofile 32768
+* hard nofile 32768
+HERE
 ```
 
 ## Install  PostgreSQL + PostGIS
@@ -41,4 +41,10 @@ Download the official GPG (GNU Privacy Guard) public security key for the Postgr
 ```
 sudo curl https://www.postgresql.org/media/keys/ACCC4CF8.asc --output /etc/apt/keyrings/postgresql.asc
 ```
+Create and configure a new software source configuration file on your system, to tell your package manager (apt) exactly where to download PostgreSQL packages from, and which security key to use to verify them:
 
+```
+cat <<HERE | sudo tee /etc/apt/sources.list.d/postgresql.list > /dev/null
+deb [signed-by=/etc/apt/keyrings/postgresql.asc] https://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main
+HERE
+```

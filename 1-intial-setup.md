@@ -20,24 +20,36 @@
 
 ## Update system package definition and apply security patches
 
-`sudo apt update && sudo apt upgrade -y`
+```
+sudo apt update && sudo apt upgrade -y
+```
 
 ## Install core Xfce and LightDM (Display Manager)
 
-`sudo apt install --no-install-recommends xorg lightdm slick-greeter xfce4 -y`
+```
+sudo apt install --no-install-recommends xorg lightdm slick-greeter xfce4 -y
+```
 
 Set the Raspberry Pi to boot directly into the GUI:
 
-`sudo systemctl set-default graphical.target`
+```
+sudo systemctl set-default graphical.target
+```
 
 Restart to launch straight into the lightweight login screen:
 
-`sudo reboot`
+```
+sudo reboot
+```
 
 ## Install Xarchiver (the standard Xfce compression tool)
 
-`sudo apt install xarchiver`
+```
+sudo apt install xarchiver
+```
 
 ## Install Firefox
 
-`sudo snap install firefox (or sudo apt install firefox)`
+```
+sudo snap install firefox (or sudo apt install firefox)
+```

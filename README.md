@@ -1,4 +1,4 @@
-## TAK Server on Ubuntu Server 22.04 w/lightweight GUI
+## TAK Server 5.X on Ubuntu Server 22.04 w/lightweight GUI
 ### System Requirements 
 #### *   **Operating Systems**: Ubuntu Server 22.04 LTS and Raspberry Pi OS (Bookworm, 64-bit/ARM64) are fully supported.
 > [!WARNING] Avoid Debian Trixie OS on the Raspberry Pi because it lacks the required Java 17 dependencies.

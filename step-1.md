@@ -27,7 +27,7 @@ Set the Raspberry Pi to boot directly into the GUI:
 
 `sudo systemctl set-default graphical.target`
 
-## Install Firefox 🦊
+## Install Firefox
 
 `sudo snap install firefox` or `sudo apt install firefox)`
 

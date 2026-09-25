@@ -1,3 +1,9 @@
+# AK Server Installation
+This is the core installation of the TAK Server software.
+
+---
+
+
 ## Download required files
 Download the `.key`, `.pol`, and `.deb` files from [tak.gov](https://tak.gov/products/tak-server) to the Downloads folder:
 - takserver-public-gpg.key

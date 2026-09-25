@@ -4,9 +4,11 @@ This page covers the final steps to make the server operational and connect clie
 ## Configure Uncomplicated Firewall (UFW)
 
 Install the Uncomplicated Firewall (UFW) management tool:
+
 ```
 sudo apt install ufw
 ```
+
 Reload the firewall's configuration:
 ```
 sudo ufw reload
@@ -24,6 +26,19 @@ sudo ufw default deny incoming
 ```
 
 Configure the firewall's default behavior to permit all outbound network connections from your server:
+```
+sudo ufw default allow outgoing
+```
+
+Create a specific rule to allow incoming SSH traffic so you can maintain remote access to your server:
+```
+sudo ufw allow ssh
+```
+
+Activate the firewall service to begin enforcing its rules:
+```
+sudo ufw enable
+```
 
 ## Configure TAK Server Certificate
 

@@ -1,3 +1,8 @@
+# Dependencies & Pre-Install Config
+This page focuses on installing and configuring the necessary prerequisites for TAK Server itself.
+
+---
+
 ## Install Java OpenJDK
 
 Check version:

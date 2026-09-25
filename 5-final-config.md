@@ -40,6 +40,16 @@ Activate the firewall service to begin enforcing its rules:
 sudo ufw enable
 ```
 
+Open port 8089 to allow incoming traffic required for TAK Server communications:
+```
+sudo ufw allow 8089
+```
+
+Open port 8443 to allow secure (SSL/TLS) incoming traffic for TAK Server communications:
+```
+sudo ufw allow 8443
+```
+
 ## Configure TAK Server Certificate
 
 

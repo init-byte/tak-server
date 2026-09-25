@@ -4,7 +4,7 @@ This guide provides a comprehensive, step-by-step process for installing a fully
 
 ---
 
-### 🛠 Installation Process
+## Installation Process
 
 Please follow the steps in order. Each section is organized as a separate "tab" in this guide.
 
@@ -15,7 +15,7 @@ Please follow the steps in order. Each section is organized as a separate "tab" 
 | **[Step 3: TAK Server Installation](./3-tak-server-install.md)** | Download, verify, and install the official TAK Server package. |
 | **[Step 4: Certificate Generation](./4-Certificate-Gen.md)** | Create the Certificate Authority (CA) and generate server/client certificates. |
 | **[Step 5: Final Configuration & Client Setup](./5-final-config.md)** | Configure the firewall, apply certificates, and set up your ATAK clients. |
-| **[Step 6: ZeroTier Setup](./6-ZeroTier.md)** | Configure ZeroTier for a secure, private VPN. |
+| **[Step 6: ZeroTier Setup](./6-zerotier.md)** | Configure ZeroTier for a secure, private VPN. |
 
 ---
 

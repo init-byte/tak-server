@@ -1,4 +1,4 @@
-# AK Server Installation
+# TAK Server Installation
 This is the core installation of the TAK Server software.
 
 ---

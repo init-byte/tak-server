@@ -28,3 +28,14 @@ Run the certificate script to generate a subordinate, intermediate Certificate A
 ```
 >🛈 Example:
 ><br>./make RootCa.sh –-ca-name TAK-ID-CA-01
+
+Generate a unique security certificate assigned directly to your server's domain name or IP address to encrypt all incoming connection traffic:
+```
+./makeCert.sh server <commonName>
+```
+>🛈 Example using domain name:
+><br>./makeCert server takserver
+><br>
+><br>🛈 Example using IP address:
+><br>./makeCert server 10.3.120.45
+

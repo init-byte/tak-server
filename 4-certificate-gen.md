@@ -5,7 +5,7 @@ This section simplifies the step-by-step process of creating your server's secur
 
 ---
 
-## 
+
 Switch your terminal session to the dedicated `tak` system user to ensure all generated certificates are created with the correct file ownership and permissions:
 ```
 sudo su tak
@@ -28,7 +28,7 @@ Run the root authority script to establish your private, top-level Certificate A
 >🛈 Example:
 ><br>./make RootCa.sh –-ca-name TAK-ROOT-CA-01
 
-Run the certificate script to generate a subordinate, intermediate Certificate Authority and link it to your newly created root authority:
+Run the certificate script to generate a subordinate, intermediate CA and link it to your newly created root authority:
 ```
 ./makeCert.sh ca <CAcommonName>
 ```

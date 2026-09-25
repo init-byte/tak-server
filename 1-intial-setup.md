@@ -1,3 +1,8 @@
+#  Initial Server Setup
+This page covers the foundational setup of the operating system and graphical environment.
+
+---
+
 ## System requirements 
 
 *   **Operating Systems**: Ubuntu Server 22.04 LTS and Raspberry Pi OS (Bookworm, 64-bit/ARM64) are fully supported.

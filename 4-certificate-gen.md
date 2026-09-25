@@ -1,7 +1,11 @@
-## Certificate generation
+# Certificate generation
+This section simplifies the step-by-step process of creating your server's security certificates and trusted environment.
 
 >🛈 Note: The generated CA truststores and certs will be located here: `/opt/tak/certs/files`.
 
+---
+
+## 
 Switch your terminal session to the dedicated `tak` system user to ensure all generated certificates are created with the correct file ownership and permissions:
 ```
 sudo su tak

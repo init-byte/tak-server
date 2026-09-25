@@ -13,7 +13,7 @@ Reload the firewall's configuration:
 ```
 sudo ufw reload
 ```
->⚠︎ Warning: For Raspberry Pi OS installs, please reboot your device after installing ufw. 
+>⚠︎ Warning: For Raspberry Pi OS installs, you reboot your device after installing ufw. 
 
 Check the current operational status and list of active rules for your firewall:
 ```

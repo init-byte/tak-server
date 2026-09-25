@@ -8,7 +8,12 @@ Install the Uncomplicated Firewall (UFW) management tool:
 sudo apt install ufw
 ```
 Reload the firewall's configuration:
+```
+sudo ufw reload
+```
 >⚠︎ Warning: For Raspberry Pi OS installs, please reboot your device after installing ufw. 
+
+Check the current operational status and list of active rules for your firewall:
 
 ## Configure TAK Server Certificate
 

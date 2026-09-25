@@ -28,6 +28,8 @@ Run the certificate script to generate a subordinate, intermediate Certificate A
 ```
 >🛈 Example:
 ><br>./make RootCa.sh –-ca-name TAK-ID-CA-01
+><br>
+>Follow the prompt to name the intermediate CA. When prompted *Do you want me to move the files around so that future server and client certificates are signed by this new CA? [Y/N]*, type `y` as this is our desired outcome.)
 
 Generate a unique security certificate assigned directly to your server's domain name or IP address to encrypt all incoming connection traffic:
 ```

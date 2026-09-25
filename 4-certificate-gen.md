@@ -41,3 +41,17 @@ Generate a unique security certificate assigned directly to your server's domain
 ><br>🛈 Example using IP address:
 ><br>./makeCert server 10.3.120.45
 
+Create an individual security certificate for standard ATAK devices on your network to securely authenticate them to the server:
+```
+./makeCert.sh client user
+```
+>🛈 Example:
+><br>./makeCert client atak-user1
+
+Generate a dedicated administrative client certificate that grants secure, high-privilege access for managing your TAK Server:
+```
+./makeCert.sh client admin
+```
+>🛈 Example:
+><br>./makeCert client tak-admin
+
